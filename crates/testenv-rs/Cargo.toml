@@ -1,5 +1,0 @@
-[package]
-name = "testenv-rs"
-license = "MIT"
-
-[dependencies]
