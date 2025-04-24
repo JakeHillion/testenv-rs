@@ -7,3 +7,6 @@ license.workspace = true
 version.workspace = true
 
 [dependencies]
+
+[dev-depdencies]
+testenv = { path = "../testenv", features = ["attrs"] }

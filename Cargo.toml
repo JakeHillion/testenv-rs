@@ -11,3 +11,7 @@ authors = ["Jake Hillion <jake@hillion.co.uk>"]
 
 [workspace.metadata.crane]
 name = "testenv"
+
+[workspace.dependencies]
+proc-macro2 = { version = "1.0.95" }
+syn = { version = "2.0.100" }

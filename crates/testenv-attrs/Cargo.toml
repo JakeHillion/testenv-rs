@@ -1,5 +1,7 @@
 [package]
-name = "testenv"
+name = "testenv-attrs"
+
+proc_macro = true
 
 authors.workspace = true
 edition.workspace = true
@@ -7,7 +9,4 @@ license.workspace = true
 version.workspace = true
 
 [dependencies]
-testenv-attrs = { path = "../testenv-attrs", optional = true }
-
-[features]
-attrs = ["testenv-attrs"]
+proc-macro2 = { workspace = true }
