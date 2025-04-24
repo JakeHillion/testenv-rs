@@ -62,10 +62,10 @@
           ];
         };
 
-        testenv-rs = craneLib.buildPackage (individualCrateArgs // {
-          pname = "testenv-rs";
-          cargoExtraArgs = "-p testenv-rs";
-          src = fileSetForCrate ./crates/testenv-rs;
+        testenv = craneLib.buildPackage (individualCrateArgs // {
+          pname = "testenv";
+          cargoExtraArgs = "-p testenv";
+          src = fileSetForCrate ./crates/testenv;
         });
       in
       {

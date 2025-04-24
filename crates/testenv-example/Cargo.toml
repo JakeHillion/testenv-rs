@@ -1,0 +1,8 @@
+[package]
+name = "testenv-example"
+
+authors.workspace = true
+license.workspace = true
+version.workspace = true
+
+[dependencies]

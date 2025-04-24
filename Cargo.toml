@@ -5,6 +5,9 @@ members = ["crates/*"]
 [workspace.package]
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
+
+authors = ["Jake Hillion <jake@hillion.co.uk>"]
 
 [workspace.metadata.crane]
-name = "testenv-rs"
+name = "testenv"
