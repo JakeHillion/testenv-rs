@@ -7,3 +7,6 @@ license.workspace = true
 version.workspace = true
 
 [dependencies]
+thiserror = { workspace = true }
+flate2 = { workspace = true }
+anyhow = { workspace = true }
